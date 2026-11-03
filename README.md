@@ -11,6 +11,15 @@ Por isso cuido de cada detalhe e de cada interação, e costumo esconder pequeno
 
 📍 São Paulo, SP
 
+### Ferramentas que uso
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,js,ts,react,astro,tailwind,vite,threejs,nodejs,electron,py,php,godot,git,vercel&perline=8&theme=light">
+    <img alt="HTML, CSS, JavaScript, TypeScript, React, Astro, Tailwind, Vite, Three.js, Node.js, Electron, Python, PHP, Godot, Git e Vercel" src="https://skillicons.dev/icons?i=html,css,js,ts,react,astro,tailwind,vite,threejs,nodejs,electron,py,php,godot,git,vercel&perline=8">
+  </picture>
+</p>
+
 ### Projetos
 
 | | |

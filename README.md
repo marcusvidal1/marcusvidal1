@@ -17,6 +17,7 @@ Por isso cuido de cada detalhe e de cada interação, e costumo esconder pequeno
 |---|---|
 | **[Face the abyss](https://github.com/marcusvidal1/gamelibrary2)** · [ver no ar](https://face-the-abyss.vercel.app) | Um catálogo de jogos para se perder: um Nintendo 64 no escuro, uma lâmpada que falha e, no fim, um abismo com mais de 900 mil jogos. |
 | **[Tuff Decor](https://github.com/marcusvidal1/tuffdec-site)** · [ver no ar](https://tuffdecor.vercel.app) | Site para um cliente que instala pisos vinílicos e laminados, feito com Astro. |
+| **[Focus Timer](https://github.com/marcusvidal1/focus-timer-app)** · [baixar](https://github.com/marcusvidal1/focus-timer-app/releases) | Um cronômetro de foco e descanso em formato de post-it, com pixel art, que fica no canto da tela enquanto você trabalha. |
 | **[Búfalo Brindes](https://github.com/marcusvidal1/brindessite)** | Site vitrine de brindes para um cliente, feito com Astro. Pedido é pelo WhatsApp, sem carrinho. |
 
 <sub>Novos projetos são adicionados aqui conforme ficam prontos.</sub>

@@ -20,3 +20,11 @@ Por isso cuido de cada detalhe e de cada interação, e costumo esconder pequeno
 | **[Búfalo Brindes](https://github.com/marcusvidal1/brindessite)** | Site vitrine de brindes para um cliente, feito com Astro. Pedido é pelo WhatsApp, sem carrinho. |
 
 <sub>Novos projetos são adicionados aqui conforme ficam prontos.</sub>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcusvidal1/marcusvidal1/output/cobrinha-escura.svg">
+    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/marcusvidal1/marcusvidal1/output/cobrinha.svg">
+  </picture>
+</p>
+

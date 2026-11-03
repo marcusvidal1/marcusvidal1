@@ -1,0 +1,36 @@
+name: cobrinha
+
+on:
+  # gera de novo todo dia, para acompanhar as contribuições
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  gerar:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # cores do perfil: grafite e amarelo da lâmpada
+      - name: gera a cobrinha
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/cobrinha.svg?color_snake=#1d1c1a&color_dots=#ebe7df,#f7e3b0,#f2cd73,#e0ac38,#b7861d
+            dist/cobrinha-escura.svg?color_snake=#f2c14e&color_dots=#21262d,#4a3f22,#7a6229,#b08a33,#f2c14e
+
+      # publica os SVGs no branch "output"
+      - name: publica no branch output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
